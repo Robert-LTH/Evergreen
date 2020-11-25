@@ -82,6 +82,7 @@ Function ConvertFrom-GitHubReleasesJson {
                         Architecture = Get-Architecture -String $asset.browser_download_url
                         Date         = ConvertTo-DateTime -DateTime $release.created_at
                         Size         = $asset.size
+                        Language     = ""
                         URI          = $asset.browser_download_url
                     }
                     Write-Output -InputObject $PSObject

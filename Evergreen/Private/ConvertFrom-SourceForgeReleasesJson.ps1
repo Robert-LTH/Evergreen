@@ -92,6 +92,10 @@
             $PSObject = [PSCustomObject] @{
                 Version      = $Version
                 Architecture = Get-Architecture -String $File
+                Platform     = ""
+                Date         = ""
+                Size         = ""
+                Language     = ""
                 URI          = "$($Download.Uri)/$($Download.Folder)/$Version/$File" -replace " ", "%20"
             }
             Write-Output -InputObject $PSObject
