@@ -1,0 +1,24 @@
+{
+	"Name": "Advanced Installer",
+	"Source": "https://www.advancedinstaller.com/",
+	"Get": {
+		"Uri": "https://www.advancedinstaller.com/version-history.html",
+		"DownloadUri": "https://www.advancedinstaller.com/downloads/advinst.msi",
+		"MatchVersion": "Advanced Installer (\\d+(\\.\\d+){1,3})",
+		"DatePattern": "Released on ([a-zA-Z]+ \\d{1,2}[a-zA-Z]+, \\d{4})"
+	},
+	"Install": {
+		"Preinstall": "",
+		"Setup": "advinst.msi",
+		"Physical": {
+			"Arguments": "",
+			"PostInstall": [
+			]
+		},
+		"Virtual": {
+			"Arguments": "",
+			"PostInstall": [
+			]
+		}
+	}
+}

@@ -71,7 +71,7 @@ PowerShellVersion = '3.0'
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = @('Export-EvergreenFunctionStrings', 
                'Export-EvergreenResourceStrings', 'Get-7zip', 
-               'Get-AdobeAcrobatReaderDC', 'Get-AdoptOpenJDK'
+               'Get-AdobeAcrobatReaderDC', 'Get-AdoptOpenJDK', 'Get-AdvancedInstaller', 
                'Get-Atom', 'Get-BISF', 'Get-CitrixAppLayeringFeed', 
                'Get-CitrixApplicationDeliveryManagementFeed', 
                'Get-CitrixEndpointManagementFeed', 'Get-CitrixGatewayFeed', 
